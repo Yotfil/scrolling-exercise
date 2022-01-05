@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section {
+    max-width: 900px;
+    margin: 100px auto 0;
+}
+.scroll__graphic {
+    height: 60vh;
+    overflow: hidden;
+    position: sticky;
+    top: 100px;
+    left: 0;
+}
+.content-element {
+    height: 80vh;
+    position: relative;
+}
+.content-element div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.content-element img {
+    width: 100%;
+    height: 100%;
+    object-position: center center;
+    object-fit: cover;
+}
+
+.scroll__articles {
+    z-index: 10;
+    position: relative;
+}
+
+.step {
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    box-shadow: 4px 5px 8px #9a9a9a24;
+    height: auto !important;
+    margin: 0 auto 32px;
+    margin-bottom: 100vh;
+    padding: 20px;
+    position: relative;
+}
+
+.step__text-post {
+    color: #000;
+    font: 400 16px/24px IBM Plex Serif, serif;
+    margin: 0;
+}
+
+.hide {
+    display: none !important;
+}
+.showOpacity {
+    opacity: 1 !important;
+    transition: all 0.4s ease-in-out;
+}
+#img1 {
+    z-index: 10;
+}
+#img2 {
+    z-index: 9;
+}
+#img3 {
+    z-index: 8;
+}
+#img4 {
+    z-index: 7;
+}
